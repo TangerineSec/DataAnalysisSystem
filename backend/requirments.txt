@@ -1,0 +1,6 @@
+tornado_request_mapping===0.0.6
+tornado==6.3.2
+openpyxl==3.0.7
+pandas==1.2.4
+numpy==1.22.0
+pyecharts==1.9.1
