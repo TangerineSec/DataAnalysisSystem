@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 192.168.43.176",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 0.0.0.0",
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --mode development",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build  --mode production",
     "cordova": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build  --mode cordova && cd video_cordova && cordova run android",
