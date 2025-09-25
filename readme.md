@@ -2,6 +2,13 @@
 
 ## 前端启动方式
 
+安装：
+使用宽松安装，安装 webpack-cli 低版本
+```
+npm install --legacy-peer-deps --ignore-scripts
+npm install -D webpack-cli@3
+```
+
 ```
 npm run dev
 ```
@@ -93,4 +100,7 @@ graph TD
 
 > 
 修改方式:每次修改前做一次 commit 提交作为开始,完成后再 commit 提交,作为结束.
-        
+ 目的：希望以后变成一个非常方便扩展和维护，能够快速理解，二次开发的系统，目前在做功能的完善开发
+
+> 修改记录：修改了前端文件的引入方式,参考 kimi回答
+https://www.kimi.com/chat/d3adli9kotd1a03kkof0 

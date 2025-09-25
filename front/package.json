@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 0.0.0.0",
+    "dev": "vue-cli-service serve --host 0.0.0.0",
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --mode development",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build  --mode production",
     "cordova": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build  --mode cordova && cd video_cordova && cordova run android",
@@ -14,17 +14,15 @@
     "@element-plus/icons": "0.0.11",
     "axios": "^0.21.1",
     "echarts": "^5.1.2",
-    "element-plus": "1.0.2-beta.52",
+    "element-plus": "^2.9.4",
     "gsap": "^3.11.5",
-    "jwchat": "^1.0.12",
     "uglifyjs-webpack-plugin": "^1.3.0",
-    "vue": "^3.1.2",
+    "vue": "^3.1.1",
     "vue-cropperjs": "^5.0.0",
     "vue-i18n": "^9.0.0",
     "vue-router": "^4.0.10",
     "vue-schart": "^2.0.0",
-    "vuex": "^4.0.2",
-    "wangeditor": "^4.7.4"
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
