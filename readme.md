@@ -104,3 +104,7 @@ graph TD
 
 > 修改记录：修改了前端文件的引入方式,参考 kimi回答
 https://www.kimi.com/chat/d3adli9kotd1a03kkof0 
+
+OK computer+kimi，似乎有可以成功的迹象
+
+npm install @authing/guard-vue3
